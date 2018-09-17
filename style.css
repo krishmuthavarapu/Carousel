@@ -1,0 +1,47 @@
+.carousel-control{
+    width: 40px !important;
+    height: 40px;
+    font-size: 27px !important;
+    text-shadow: none;;
+    background-color: rgb(240, 228, 228) !important;
+    background-image: none!important;
+}
+.carousel-indicators{
+   left: 50%;
+}
+.deal h1{
+    padding-top: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+.section{
+    margin: 20px 0px !important;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+.row{
+    display: block !important;
+}
+/*  */
+.top{
+    border-bottom: 1px solid #bdaeae;
+}
+.price-old {
+    font-size: 14px !important;
+    display: inline-block;
+    text-decoration: inherit;
+    line-height: 20px;
+    color: #000;
+}
+.prices{
+    text-align: left;
+    margin-bottom: 4px;
+}
+.caption{
+    display: inline;
+    text-align: left;
+}
