@@ -29,6 +29,12 @@
 /*  */
 .top{
     border-bottom: 1px solid #bdaeae;
+    display: flex;
+    
+}
+.details{
+    height: 20px !important;
+    width:25px !important;
 }
 .price-old {
     font-size: 14px !important;
@@ -44,4 +50,54 @@
 .caption{
     display: inline;
     text-align: left;
+}
+.new-tag{
+    position: absolute;
+    background-image: url("new.png") ;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 38px;
+    font-size: .6875rem;
+
+}
+.new-tag strong {
+    transform: rotate(-45deg);
+    display: block;
+    font-weight: 400;
+    padding-right: 18px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: myCustomFont;
+}
+.boxrange{
+    text-align: center;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    font-size: .875rem;
+    color: #000;
+    padding: 15px 0;
+    display: block;
+    padding: 5px;
+    width: 15% !important;
+    margin: 7px !important;
+    
+}
+.block-title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 0;
+    padding-right: 0;
+    color: #000;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-family: myCustomFont;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.new-carousel img {
+    width: 353px;
+    height: 245px;
+    padding: 10px;
 }
